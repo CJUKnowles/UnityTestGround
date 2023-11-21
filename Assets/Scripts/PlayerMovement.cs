@@ -25,6 +25,7 @@ public class PlayerMovement : MonoBehaviour
 			transform.position += Vector3.right * speed * Time.deltaTime;
 		}
 		if (Input.GetKey(KeyCode.A))
+
 		{
 			transform.position += Vector3.left * speed * Time.deltaTime;
 		}
@@ -37,6 +38,7 @@ public class PlayerMovement : MonoBehaviour
 			transform.position += Vector3.down * speed * Time.deltaTime;
 		}
 
-		
+
+		// hello hi
 	}
 }
