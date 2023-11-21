@@ -6,7 +6,7 @@ using UnityEngine;
 
 public class PlayerMovement : MonoBehaviour
 {
-	private float speed = 2.0f;
+	public float speed = 2.0f;
 	public GameObject character;
 
 	// Start is called before the first frame update
